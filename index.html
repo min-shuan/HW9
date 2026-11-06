@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Retro Study Notes：研究所課程、論文閱讀與技術筆記整理網站。">
+    <title>Retro Study Notes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 背景裝飾：固定位置，僅提供復古桌面氣氛 -->
+    <span class="desktop-decoration decor-a">✦</span>
+    <span class="desktop-decoration decor-b">✉</span>
+    <span class="desktop-decoration decor-c">♡</span>
+    <span class="desktop-decoration decor-d">★</span>
+
+    <main class="desktop">
+        <header class="window">
+            <div class="window-titlebar">
+                <span>📚 RETRO STUDY NOTES.EXE</span>
+                <span class="window-controls">_ □ ×</span>
+            </div>
+            <div class="hero">
+                <h1>Retro Study Notes</h1>
+                <p>研究所課程、論文閱讀與技術筆記整理</p>
+                <span class="hero-tag">master's notes archive</span>
+                <nav class="top-nav" aria-label="主導覽">
+                    <a href="#notes">Notes</a>
+                    <a href="#about">About</a>
+                </nav>
+            </div>
+        </header>
+
+        <section class="window" id="notes">
+            <div class="window-titlebar">
+                <span>🗂 NOTES_LIBRARY</span>
+                <span class="window-controls">_ □ ×</span>
+            </div>
+            <div class="window-content">
+                <p class="section-label">SELECT A NOTE TO OPEN</p>
+                <div class="note-grid">
+                    <article class="note-card">
+                        <span class="category">Computer Vision</span>
+                        <h3>Anomaly Detection</h3>
+                        <p>整理 Visual Anomaly Detection 的核心概念、Normality Modeling、常見資料集與研究筆記。</p>
+                        <a class="note-link" href="pages/anomaly-detection.html">OPEN NOTE</a>
+                    </article>
+
+                    <article class="note-card">
+                        <span class="category">Machine Learning</span>
+                        <h3>Machine Learning</h3>
+                        <p>預留給 Regression、Classification、Evaluation Metrics 等課程筆記。</p>
+                        <span class="note-link" aria-disabled="true">COMING SOON</span>
+                    </article>
+
+                    <article class="note-card">
+                        <span class="category">Signal Processing</span>
+                        <h3>DSP</h3>
+                        <p>預留給 Sampling、Z-transform、Frequency Response 等數位訊號處理筆記。</p>
+                        <span class="note-link" aria-disabled="true">COMING SOON</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="window" id="about">
+            <div class="window-titlebar">
+                <span>💾 ABOUT_THIS_PROJECT.TXT</span>
+                <span class="window-controls">_ □ ×</span>
+            </div>
+            <div class="window-content">
+                <p>這個網站以固定的頁面結構與視覺規範整理研究所學習內容。後續新增筆記時，AI 需要先閱讀 <code>AGENTS.md</code>，再依照相同的命名、版型與內容規則延伸網站。</p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

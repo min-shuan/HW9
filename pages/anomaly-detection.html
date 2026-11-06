@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Anomaly Detection 筆記：整理核心概念、重要名詞與個人研究筆記。">
+    <title>Anomaly Detection | Retro Study Notes</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <span class="desktop-decoration decor-a">✦</span>
+    <span class="desktop-decoration decor-b">✉</span>
+    <span class="desktop-decoration decor-c">♡</span>
+    <span class="desktop-decoration decor-d">★</span>
+
+    <main class="desktop">
+        <article class="window">
+            <div class="window-titlebar">
+                <span>📄 ANOMALY-DETECTION.HTML</span>
+                <span class="window-controls">_ □ ×</span>
+            </div>
+            <div class="window-content">
+                <a class="back-link" href="../index.html">← BACK TO HOME</a>
+
+                <header class="note-header note-section">
+                    <p class="section-label">COMPUTER VISION / STUDY NOTE</p>
+                    <h1>Anomaly Detection</h1>
+                    <p>這篇筆記作為 Retro Study Notes 的第一個內容頁範例，用來示範之後新增筆記時應遵守的結構。</p>
+                </header>
+
+                <section class="note-section">
+                    <h2>Overview</h2>
+                    <p>Anomaly Detection 的目標是辨識與正常資料分布不同的樣本。在視覺任務中，常見應用包含工業瑕疵檢測、影像異常定位與品質檢查。</p>
+                </section>
+
+                <section class="note-section">
+                    <h2>Key Concepts</h2>
+                    <ul>
+                        <li><strong>Normality Modeling：</strong>建立正常資料的表示，再判斷測試樣本是否偏離正常模式。</li>
+                        <li><strong>Anomaly Score：</strong>用數值表示樣本偏離正常狀態的程度。</li>
+                        <li><strong>Image-level Detection：</strong>判斷整張影像是否異常。</li>
+                        <li><strong>Pixel-level Localization：</strong>定位影像中可能異常的區域。</li>
+                    </ul>
+                </section>
+
+                <section class="note-section">
+                    <h2>Important Terms</h2>
+                    <div class="term-list">
+                        <div class="term"><strong>Anomaly</strong><br>與正常資料分布或正常模式有明顯差異的樣本。</div>
+                        <div class="term"><strong>Normality Modeling</strong><br>透過正常資料建立正常模式，並以偏離程度作為異常判斷依據。</div>
+                        <div class="term"><strong>Few-shot / Limited Anomaly Supervision</strong><br>在只有少量異常樣本或標註資訊時進行異常檢測。</div>
+                    </div>
+                </section>
+
+                <section class="note-section">
+                    <h2>Detailed Notes</h2>
+                    <p>此區塊預留給更完整的課程內容、論文方法、資料集比較或實驗結果。後續可以依實際筆記拆成更多小節，但應維持相同的視覺與標題結構。</p>
+                </section>
+
+                <section class="note-section">
+                    <h2>My Notes</h2>
+                    <div class="personal-note">目前特別關注以 Visual Foundation Model 建立 normality representation，以及在 limited anomaly supervision 條件下如何提升模型對異常的辨識能力。</div>
+                </section>
+
+                <section class="note-section">
+                    <h2>References</h2>
+                    <p>此頁目前為網站結構示範頁，尚未加入正式文獻來源。後續若加入論文內容，必須同步補上正確 reference。</p>
+                </section>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
